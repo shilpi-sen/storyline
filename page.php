@@ -26,6 +26,10 @@ get_header(); ?>
 				<?php endwhile; ?>
 
 			<?php endif; // end have_posts() check ?>
+<<<<<<< HEAD
+=======
+
+>>>>>>> a50a2d7d3f18a5bb6b0b0ca27fc680c3008b813e
 		</div> <!-- /.col.grid_8_of_12 -->
 		<?php get_sidebar(); ?>
 

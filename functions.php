@@ -327,7 +327,7 @@ function storyline_widgets_init() {
 			'before_title' => '<h3 class="widget-title">',
 			'after_title' => '</h3>'
 		) );
-        register_sidebar( array(
+		register_sidebar( array(
 			'name' => esc_html__( 'Gallery-widget', 'storyline' ),
 			'id' => 'galler-widget',
 			'description' => esc_html__( 'Appears in the footer sidebar', 'storyline' ),
@@ -719,7 +719,7 @@ if ( ! function_exists( 'storyline_posted_on' ) ) {
 /**
  * Prints HTML with meta information for current post: categories, tags, permalink
  *
- * @since Storyline 1.0
+ * @since storyline 1.0
  *
  * @return void
  */
